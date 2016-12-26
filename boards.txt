@@ -26,11 +26,11 @@ menu.board_variant=Board Variant
 
 Generic_nRF52832.name=Generic nRF52
 
-Generic_nRF52832.upload.tool=sandeepmistry:openocd
+Generic_nRF52832.upload.tool=d00616:openocd
 Generic_nRF52832.upload.target=nrf52
 Generic_nRF52832.upload.maximum_size=524288
 
-Generic_nRF52832.bootloader.tool=sandeepmistry:openocd
+Generic_nRF52832.bootloader.tool=d00616:openocd
 
 Generic_nRF52832.build.mcu=cortex-m4
 Generic_nRF52832.build.f_cpu=16000000
@@ -65,7 +65,7 @@ nRF52DK.name=Nordic Semiconductor nRF52 DK
 nRF52DK.vid.0=0x1366
 nRF52DK.pid.0=0x1015
 
-nRF52DK.upload.tool=sandeepmistry:openocd
+nRF52DK.upload.tool=d00616:openocd
 nRF52DK.upload.protocol=
 nRF52DK.upload.interface=jlink
 nRF52DK.upload.target=nrf52
@@ -75,7 +75,7 @@ nRF52DK.upload.use_1200bps_touch=false
 nRF52DK.upload.wait_for_upload_port=false
 nRF52DK.upload.native_usb=false
 
-nRF52DK.bootloader.tool=sandeepmistry:openocd
+nRF52DK.bootloader.tool=d00616:openocd
 
 nRF52DK.build.mcu=cortex-m4
 nRF52DK.build.f_cpu=16000000
@@ -106,11 +106,11 @@ nRF52DK.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 STCT_nRF52_minidev.name=Taida Century nRF52 mini board
 
-STCT_nRF52_minidev.upload.tool=sandeepmistry:openocd
+STCT_nRF52_minidev.upload.tool=d00616:openocd
 STCT_nRF52_minidev.upload.target=nrf52
 STCT_nRF52_minidev.upload.maximum_size=524288
 
-STCT_nRF52_minidev.bootloader.tool=sandeepmistry:openocd
+STCT_nRF52_minidev.bootloader.tool=d00616:openocd
 
 STCT_nRF52_minidev.build.mcu=cortex-m4
 STCT_nRF52_minidev.build.f_cpu=16000000
@@ -145,11 +145,11 @@ STCT_nRF52_minidev.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 Generic_nRF51822.name=Generic nRF51
 
-Generic_nRF51822.upload.tool=sandeepmistry:openocd
+Generic_nRF51822.upload.tool=d00616:openocd
 Generic_nRF51822.upload.target=nrf51
 Generic_nRF51822.upload.maximum_size=262144
 
-Generic_nRF51822.bootloader.tool=sandeepmistry:openocd
+Generic_nRF51822.bootloader.tool=d00616:openocd
 
 Generic_nRF51822.build.mcu=cortex-m0
 Generic_nRF51822.build.f_cpu=16000000
@@ -196,11 +196,11 @@ BBCmicrobit.name=BBC micro:bit
 BBCmicrobit.vid.0=0x0d28
 BBCmicrobit.pid.0=0x0204
 
-BBCmicrobit.upload.tool=sandeepmistry:openocd
+BBCmicrobit.upload.tool=d00616:openocd
 BBCmicrobit.upload.target=nrf51
 BBCmicrobit.upload.maximum_size=262144
 
-BBCmicrobit.bootloader.tool=sandeepmistry:openocd
+BBCmicrobit.bootloader.tool=d00616:openocd
 
 BBCmicrobit.build.mcu=cortex-m0
 BBCmicrobit.build.f_cpu=16000000
@@ -234,11 +234,11 @@ BBCmicrobit.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
 BluzDK.name=Bluz DK
 
-BluzDK.upload.tool=sandeepmistry:openocd
+BluzDK.upload.tool=d00616:openocd
 BluzDK.upload.target=nrf51
 BluzDK.upload.maximum_size=262144
 
-BluzDK.bootloader.tool=sandeepmistry:openocd
+BluzDK.bootloader.tool=d00616:openocd
 
 BluzDK.build.mcu=cortex-m0
 BluzDK.build.f_cpu=16000000
@@ -270,11 +270,11 @@ BluzDK.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxac.ld
 
 PCA1000X.name=Nordic nRF51X22 Development Kit(PCA1000X)
 
-PCA1000X.upload.tool=sandeepmistry:openocd
+PCA1000X.upload.tool=d00616:openocd
 PCA1000X.upload.target=nrf51
 PCA1000X.upload.maximum_size=262144
 
-PCA1000X.bootloader.tool=sandeepmistry:openocd
+PCA1000X.bootloader.tool=d00616:openocd
 
 PCA1000X.build.mcu=cortex-m0
 PCA1000X.build.f_cpu=16000000
@@ -286,7 +286,7 @@ PCA1000X.build.extra_flags=-DNRF51 -D{board.variant}
 PCA1000X.build.float_flags=
 PCA1000X.build.ldscript=nrf51_xxaa.ld
 
-PCA1000X.upload.tool=sandeepmistry:openocd
+PCA1000X.upload.tool=d00616:openocd
 PCA1000X.upload.protocol=
 PCA1000X.upload.interface=jlink
 PCA1000X.upload.target=nrf51
@@ -325,12 +325,12 @@ PCA1000X.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 nRF51Dongle.name= Nordic nRF51 Dongle (PCA10031)
 
-nRF51Dongle.upload.tool=sandeepmistry:openocd
+nRF51Dongle.upload.tool=d00616:openocd
 nRF51Dongle.upload.interface=cmsisdap
 nRF51Dongle.upload.target=nrf51
 nRF51Dongle.upload.maximum_size=262144
 
-nRF51Dongle.bootloader.tool=sandeepmistry:openocd
+nRF51Dongle.bootloader.tool=d00616:openocd
 
 nRF51Dongle.build.mcu=cortex-m0
 nRF51Dongle.build.f_cpu=16000000
@@ -365,11 +365,11 @@ nRF51Dongle.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip
 
 OSHChip.name=OSHChip
 
-OSHChip.upload.tool=sandeepmistry:openocd
+OSHChip.upload.tool=d00616:openocd
 OSHChip.upload.target=nrf51
 OSHChip.upload.maximum_size=262144
 
-OSHChip.bootloader.tool=sandeepmistry:openocd
+OSHChip.bootloader.tool=d00616:openocd
 
 OSHChip.build.mcu=cortex-m0
 OSHChip.build.f_cpu=16000000
@@ -403,12 +403,12 @@ OSHChip.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxac.ld
 
 BLENano.name=RedBearLab BLE Nano
 
-BLENano.upload.tool=sandeepmistry:openocd
+BLENano.upload.tool=d00616:openocd
 BLENano.upload.interface=cmsisdap
 BLENano.upload.target=nrf51
 BLENano.upload.maximum_size=262144
 
-BLENano.bootloader.tool=sandeepmistry:openocd
+BLENano.bootloader.tool=d00616:openocd
 
 BLENano.build.mcu=cortex-m0
 BLENano.build.f_cpu=16000000
@@ -445,12 +445,12 @@ BLENano.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 RedBearLab_nRF51822.name=RedBearLab nRF51822
 
-RedBearLab_nRF51822.upload.tool=sandeepmistry:openocd
+RedBearLab_nRF51822.upload.tool=d00616:openocd
 RedBearLab_nRF51822.upload.interface=cmsisdap
 RedBearLab_nRF51822.upload.target=nrf51
 RedBearLab_nRF51822.upload.maximum_size=262144
 
-RedBearLab_nRF51822.bootloader.tool=sandeepmistry:openocd
+RedBearLab_nRF51822.bootloader.tool=d00616:openocd
 
 RedBearLab_nRF51822.build.mcu=cortex-m0
 RedBearLab_nRF51822.build.f_cpu=16000000
@@ -487,11 +487,11 @@ RedBearLab_nRF51822.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{bu
 
 Waveshare_BLE400.name=Waveshare BLE400
 
-Waveshare_BLE400.upload.tool=sandeepmistry:openocd
+Waveshare_BLE400.upload.tool=d00616:openocd
 Waveshare_BLE400.upload.target=nrf51
 Waveshare_BLE400.upload.maximum_size=262144
 
-Waveshare_BLE400.bootloader.tool=sandeepmistry:openocd
+Waveshare_BLE400.bootloader.tool=d00616:openocd
 
 Waveshare_BLE400.build.mcu=cortex-m0
 Waveshare_BLE400.build.f_cpu=16000000
