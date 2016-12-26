@@ -15,7 +15,7 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-name=Nordic Semiconductor nRF5 Boards
+name=Nordic Semiconductor nRF5 Boards (enhanced)
 version=0.2.0
 
 # Compile variables
@@ -54,7 +54,7 @@ build.lfclk_flags=
 
 nrf.sdk.path={build.core.path}/SDK
 
-compiler.nrf.flags=-DNRF5 "-I{nrf.sdk.path}/components/toolchain/" "-I{nrf.sdk.path}/components/toolchain/CMSIS/Include" "-I{nrf.sdk.path}/components/toolchain/gcc/" "-I{nrf.sdk.path}/components/device/" "-I{nrf.sdk.path}/components/drivers_nrf/delay/" "-I{nrf.sdk.path}/components/softdevice/{softdevice}/headers/"
+compiler.nrf.flags=-DNRF5 -DNRF5_ENHANCED "-I{nrf.sdk.path}/components/toolchain/" "-I{nrf.sdk.path}/components/toolchain/CMSIS/Include" "-I{nrf.sdk.path}/components/toolchain/gcc/" "-I{nrf.sdk.path}/components/device/" "-I{nrf.sdk.path}/components/drivers_nrf/delay/" "-I{nrf.sdk.path}/components/softdevice/{softdevice}/headers/"
 
 # These can be overridden in platform.local.txt
 compiler.c.extra_flags=

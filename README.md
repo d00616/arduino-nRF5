@@ -1,10 +1,17 @@
 # Arduino Core for Nordic Semiconductor nRF5 based boards
 
-[![Build Status](https://travis-ci.org/sandeepmistry/arduino-nRF5.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-nRF5)
+[![Build Status](https://travis-ci.org/d00616/arduino-nRF5.svg?branch=master)](https://travis-ci.org/d00616/arduino-nRF5)
 
 Program your [Nordic Semiconductor](https://www.nordicsemi.com) nRF51 or nRF52 board using the [Arduino](https://www.arduino.cc) IDE.
 
 Does not require a custom bootloader on the device.
+
+*THIS IS A FORK OF* [sandeepmistry/arduino-nRF5](https://github.com/sandeepmistry/arduino-nRF5). If
+you are looking for a more stable and compatible version use the version of sandeepmistry.
+
+This fork provides more functionality like Nordic specific output modes, AVR compatibility and some
+librararies supporting internal hardware of Nordic Semiconducter MCUs. Please refer
+[README_ENHANCED.md](README_ENHANCED.md) for more details.
 
 ## Supported boards
 
@@ -33,8 +40,8 @@ Does not require a custom bootloader on the device.
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (At least v1.6.12)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add ```https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json``` as an "Additional Board Manager URL"
- 5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 Boards"
+ 4. Add ```https://d00616.github.io/arduino-nRF5/package_nRF5_boards_index.json``` as an "Additional Board Manager URL"
+ 5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 Boards (enhanced)"
  6. Select your nRF5 board from the Tools -> Board menu
 
 #### OS Specific Setup
