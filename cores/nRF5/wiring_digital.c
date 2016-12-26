@@ -73,7 +73,15 @@ void pinMode( uint32_t ulPin, uint32_t ulMode )
     break ;
 
     default:
-      // do nothing
+      // calculate nRF specific output modes
+      if ((ulMode >= OUTPUT_S0S1) && (ulMode <= OUTPUT_H0D1)) {
+        // Set pin to given output mode
+        NRF_GPIO->PIN_CNF[ulPin] = ((uint32_t)GPIO_PIN_CNF_DIR_Output       << GPIO_PIN_CNF_DIR_Pos)
+                                 | ((uint32_t)GPIO_PIN_CNF_INPUT_Disconnect << GPIO_PIN_CNF_INPUT_Pos)
+                                 | ((uint32_t)GPIO_PIN_CNF_PULL_Disabled    << GPIO_PIN_CNF_PULL_Pos)
+                                 | ((uint32_t)(ulMode - OUTPUT_S0S1)        << GPIO_PIN_CNF_DRIVE_Pos)
+                                 | ((uint32_t)GPIO_PIN_CNF_SENSE_Disabled   << GPIO_PIN_CNF_SENSE_Pos);
+      }
     break ;
   }
 }
