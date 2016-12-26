@@ -44,7 +44,7 @@ int _write(int file, char *buffer, int size)
 {
   (void)file;
   Serial.write(buffer, size);
-       return 0;
+  return 0;
 }
 }
 
