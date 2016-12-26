@@ -24,5 +24,10 @@ used at the beginning.
 
 Support for printf like https://forum.arduino.cc/index.php?topic=197601.msg1488213#msg1488213
 
+### util/atomic.h
+
+This header file allows to use [util/atomic.h](http://www.nongnu.org/avr-libc/user-manual/group__util__atomic.html)
+like included in Arduino for AVR. This file is taken from Teensy and created by Mark Pendrith.
+
 ## Additional libraries
 
