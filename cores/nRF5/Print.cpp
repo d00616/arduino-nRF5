@@ -42,6 +42,7 @@ extern "C" {
 __attribute__((weak))
 int _write(int file, char *buffer, int size)
 {
+  (void)file;
   Serial.write(buffer, size);
        return 0;
 }
