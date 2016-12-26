@@ -37,6 +37,16 @@ size_t Print::write(const uint8_t *buffer, size_t size)
   return n;
 }
 
+// for printf compatibility
+extern "C" {
+__attribute__((weak))
+int _write(int file, char *buffer, int size)
+{
+  Serial.write(buffer, size);
+       return 0;
+}
+}
+
 size_t Print::print(const __FlashStringHelper *ifsh)
 {
   return print(reinterpret_cast<const char *>(ifsh));

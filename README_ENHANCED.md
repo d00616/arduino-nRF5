@@ -20,5 +20,9 @@ pause in sleep mode. Running code from flash with DCDC enabled consumes 133mAh. 
 (250mAh) powered device is reset a maximum of one time in battery life when wdt_disable is
 used at the beginning.
 
+### cores/nRF5/Print.cpp
+
+Support for printf like https://forum.arduino.cc/index.php?topic=197601.msg1488213#msg1488213
+
 ## Additional libraries
 
