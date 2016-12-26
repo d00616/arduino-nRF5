@@ -9,5 +9,16 @@ with Arduino SAMD core.
 
 ## Core enhancements
 
+### avr/wdt.h
+
+This header file provides an interface to internal hardware watch dog.
+
+wdt_enable() accepts a timeout in ms. The WDTO_... constants are updated.
+
+wdt_disable() does'n work like expected. It set the timeout to 36h and configure the WDT to
+pause in sleep mode. Running code from flash with DCDC enabled consumes 133mAh. A CR2032
+(250mAh) powered device is reset a maximum of one time in battery life when wdt_disable is
+used at the beginning.
+
 ## Additional libraries
 
