@@ -33,6 +33,7 @@ librararies supporting internal hardware of Nordic Semiconducter MCUs. Please re
  * [RedBearLab BLE Nano](http://redbearlab.com/blenano/)
  * [RedBearLab nRF51822](http://redbearlab.com/redbearlab-nrf51822/)
  * [Waveshare BLE400](http://www.waveshare.com/wiki/BLE400)
+ * [ng-beacon](https://github.com/urish/ng-beacon)
 
 ## Installing
 
