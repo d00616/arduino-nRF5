@@ -47,6 +47,8 @@ librararies supporting internal hardware of Nordic Semiconducter MCUs. Please re
  5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 Boards (enhanced)"
  6. Select your nRF5 board from the Tools -> Board menu
 
+__NOTE:__ During installation it takes the Arduino IDE a few minutes to extract the tools after they have been downloaded, please be patient.
+
 #### OS Specific Setup
 
 ##### OS X
