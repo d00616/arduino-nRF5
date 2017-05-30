@@ -164,7 +164,12 @@ nRF52DK.build.extra_flags=-DNRF52
 nRF52DK.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16
 nRF52DK.build.ldscript=nrf52_xxaa.ld
 
-nRF52DK.build.lfclk_flags=-DUSE_LFXO
+nRF52DK.menu.lfclk.lfxo=Crystal Oscillator
+nRF52DK.menu.lfclk.lfxo.build.lfclk_flags=-DUSE_LFXO
+nRF52DK.menu.lfclk.lfrc=RC Oscillator
+nRF52DK.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
+nRF52DK.menu.lfclk.lfsynt=Synthesized
+nRF52DK.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 nRF52DK.menu.softdevice.none=None
 nRF52DK.menu.softdevice.none.softdevice=none
@@ -284,7 +289,10 @@ BBCmicrobit.build.extra_flags=-DNRF51
 BBCmicrobit.build.float_flags=
 BBCmicrobit.build.ldscript=nrf51_xxaa.ld
 
-BBCmicrobit.build.lfclk_flags=-DUSE_LFRC
+BBCmicrobit.menu.lfclk.lfrc=RC Oscillator
+BBCmicrobit.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
+BBCmicrobit.menu.lfclk.lfsynt=Synthesized
+BBCmicrobit.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 BBCmicrobit.menu.softdevice.none=None
 BBCmicrobit.menu.softdevice.none.softdevice=none
@@ -359,8 +367,6 @@ PCA1000X.build.variant_system_lib=
 PCA1000X.build.extra_flags=-DNRF51 -D{board.variant}
 PCA1000X.build.float_flags=
 PCA1000X.build.ldscript=nrf51_xxaa.ld
-
-PCA1000X.build.lfclk_flags=-DUSE_LFXO
 
 PCA1000X.upload.tool=sandeepmistry:openocd
 PCA1000X.upload.protocol=jlink
@@ -536,7 +542,10 @@ OSHChip.build.extra_flags=-DNRF51
 OSHChip.build.float_flags=
 OSHChip.build.ldscript=nrf51_xxac.ld
 
-OSHChip.build.lfclk_flags=-DUSE_LFRC
+OSHChip.menu.lfclk.lfrc=RC Oscillator
+OSHChip.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
+OSHChip.menu.lfclk.lfsynt=Synthesized
+OSHChip.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 OSHChip.menu.softdevice.none=None
 OSHChip.menu.softdevice.none.softdevice=none
@@ -707,7 +716,10 @@ ng_beacon.build.extra_flags=-DNRF51
 ng_beacon.build.float_flags=
 ng_beacon.build.ldscript=nrf51_xxaa.ld
 
-ng_beacon.build.lfclk_flags=-DUSE_LFRC
+ng_beacon.menu.lfclk.lfrc=RC Oscillator
+ng_beacon.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
+ng_beacon.menu.lfclk.lfsynt=Synthesized
+ng_beacon.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
 ng_beacon.menu.softdevice.none=None
 ng_beacon.menu.softdevice.none.softdevice=none

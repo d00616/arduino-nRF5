@@ -27,10 +27,13 @@ extern "C" {
 
 void init( void )
 {
+  // Configure interrupts
   NVIC_SetPriority(RTC1_IRQn, 15);
   NVIC_ClearPendingIRQ(RTC1_IRQn);
   NVIC_EnableIRQ(RTC1_IRQn);
 
+  // Start LFCLK
+  NRF_CLOCK->EVENTS_LFCLKSTARTED = 0;
   #if defined(USE_LFXO)
     NRF_CLOCK->LFCLKSRC = (uint32_t)((CLOCK_LFCLKSRC_SRC_Xtal << CLOCK_LFCLKSRC_SRC_Pos) & CLOCK_LFCLKSRC_SRC_Msk);
   #elif defined(USE_LFSYNT)
@@ -39,7 +42,9 @@ void init( void )
     NRF_CLOCK->LFCLKSRC = (uint32_t)((CLOCK_LFCLKSRC_SRC_RC << CLOCK_LFCLKSRC_SRC_Pos) & CLOCK_LFCLKSRC_SRC_Msk);
   #endif
   NRF_CLOCK->TASKS_LFCLKSTART = 1UL;
+  while (NRF_CLOCK->EVENTS_LFCLKSTARTED == 0);
 
+  // Configure RTC1
   NRF_RTC1->PRESCALER = 0;
   NRF_RTC1->INTENSET = RTC_INTENSET_OVRFLW_Msk;
   NRF_RTC1->EVTENSET = RTC_EVTEN_OVRFLW_Msk;
