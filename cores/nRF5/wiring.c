@@ -32,6 +32,11 @@ void init( void )
   NVIC_ClearPendingIRQ(RTC1_IRQn);
   NVIC_EnableIRQ(RTC1_IRQn);
 
+  // Enable caching on nRF52
+  #ifdef NVMC_ICACHECNF_CACHEEN_Msk
+    NRF_NVMC->ICACHECNF = NVMC_ICACHECNF_CACHEEN_Msk;
+  #endif
+
   // Start LFCLK
   NRF_CLOCK->EVENTS_LFCLKSTARTED = 0;
   #if defined(USE_LFXO)
