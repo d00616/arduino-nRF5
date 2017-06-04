@@ -20,6 +20,7 @@ menu.softdevice=Softdevice
 menu.version=Version
 menu.lfclk=Low Frequency Clock
 menu.board_variant=Board Variant
+menu.reset=Reset
 
 # nRF52832 variants
 ###################
@@ -58,6 +59,10 @@ Generic_nRF52832.menu.lfclk.lfrc=RC Oscillator
 Generic_nRF52832.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
 Generic_nRF52832.menu.lfclk.lfsynt=Synthesized
 Generic_nRF52832.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
+
+Generic_nRF52832.menu.reset.notenable=Don't enable
+Generic_nRF52832.menu.reset.enabled=Enable
+Generic_nRF52832.menu.reset.enabled.build.reset_flags=-DCONFIG_GPIO_AS_PINRESET
 
 
 Blend2.name=RedBear Blend 2
@@ -181,6 +186,10 @@ nRF52DK.menu.softdevice.s132.upload.maximum_size=409600
 nRF52DK.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
 nRF52DK.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
+nRF52DK.menu.reset.notenable=Don't enable
+nRF52DK.menu.reset.enabled=Enable
+nRF52DK.menu.reset.enabled.build.reset_flags=-DCONFIG_GPIO_AS_PINRESET
+
 
 STCT_nRF52_minidev.name=Taida Century nRF52 mini board
 
@@ -211,6 +220,10 @@ STCT_nRF52_minidev.menu.softdevice.s132.softdeviceversion=2.0.1
 STCT_nRF52_minidev.menu.softdevice.s132.upload.maximum_size=409600
 STCT_nRF52_minidev.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
 STCT_nRF52_minidev.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
+
+STCT_nRF52_minidev.menu.reset.notenable=Don't enable
+STCT_nRF52_minidev.menu.reset.enabled=Enable
+STCT_nRF52_minidev.menu.reset.enabled.build.reset_flags=-DCONFIG_GPIO_AS_PINRESET
 
 
 # nRF51 variants
