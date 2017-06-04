@@ -50,7 +50,7 @@ Generic_nRF52832.menu.softdevice.s132=S132
 Generic_nRF52832.menu.softdevice.s132.softdevice=s132
 Generic_nRF52832.menu.softdevice.s132.softdeviceversion=2.0.1
 Generic_nRF52832.menu.softdevice.s132.upload.maximum_size=409600
-Generic_nRF52832.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
+Generic_nRF52832.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132 -DSOFTDEVICE_PRESENT
 Generic_nRF52832.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
 Generic_nRF52832.menu.lfclk.lfxo=Crystal Oscillator
@@ -100,7 +100,7 @@ Blend2.menu.softdevice.s132=S132
 Blend2.menu.softdevice.s132.softdevice=s132
 Blend2.menu.softdevice.s132.softdeviceversion=2.0.1
 Blend2.menu.softdevice.s132.upload.maximum_size=409600
-Blend2.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
+Blend2.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132 -DSOFTDEVICE_PRESENT
 Blend2.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
 
@@ -139,7 +139,7 @@ BLENano2.menu.softdevice.s132=S132
 BLENano2.menu.softdevice.s132.softdevice=s132
 BLENano2.menu.softdevice.s132.softdeviceversion=2.0.1
 BLENano2.menu.softdevice.s132.upload.maximum_size=409600
-BLENano2.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
+BLENano2.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132 -DSOFTDEVICE_PRESENT
 BLENano2.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
 
@@ -183,7 +183,7 @@ nRF52DK.menu.softdevice.s132=S132
 nRF52DK.menu.softdevice.s132.softdevice=s132
 nRF52DK.menu.softdevice.s132.softdeviceversion=2.0.1
 nRF52DK.menu.softdevice.s132.upload.maximum_size=409600
-nRF52DK.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
+nRF52DK.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132 -DSOFTDEVICE_PRESENT
 nRF52DK.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
 nRF52DK.menu.reset.notenable=Don't enable
@@ -218,7 +218,7 @@ STCT_nRF52_minidev.menu.softdevice.s132=S132
 STCT_nRF52_minidev.menu.softdevice.s132.softdevice=s132
 STCT_nRF52_minidev.menu.softdevice.s132.softdeviceversion=2.0.1
 STCT_nRF52_minidev.menu.softdevice.s132.upload.maximum_size=409600
-STCT_nRF52_minidev.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132
+STCT_nRF52_minidev.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132 -DSOFTDEVICE_PRESENT
 STCT_nRF52_minidev.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ld
 
 STCT_nRF52_minidev.menu.reset.notenable=Don't enable
@@ -259,14 +259,14 @@ Generic_nRF51822.menu.softdevice.s110=S110
 Generic_nRF51822.menu.softdevice.s110.softdevice=s110
 Generic_nRF51822.menu.softdevice.s110.softdeviceversion=8.0.0
 Generic_nRF51822.menu.softdevice.s110.upload.maximum_size=151552
-Generic_nRF51822.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+Generic_nRF51822.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 Generic_nRF51822.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
 
 Generic_nRF51822.menu.softdevice.s130=S130
 Generic_nRF51822.menu.softdevice.s130.softdevice=s130
 Generic_nRF51822.menu.softdevice.s130.softdeviceversion=2.0.1
 Generic_nRF51822.menu.softdevice.s130.upload.maximum_size=151552
-Generic_nRF51822.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+Generic_nRF51822.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 Generic_nRF51822.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 Generic_nRF51822.menu.lfclk.lfxo=Crystal Oscillator
@@ -314,14 +314,14 @@ BBCmicrobit.menu.softdevice.s110=S110
 BBCmicrobit.menu.softdevice.s110.softdevice=s110
 BBCmicrobit.menu.softdevice.s110.softdeviceversion=8.0.0
 BBCmicrobit.menu.softdevice.s110.upload.maximum_size=151552
-BBCmicrobit.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+BBCmicrobit.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 BBCmicrobit.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxaa.ld
 
 BBCmicrobit.menu.softdevice.s130=S130
 BBCmicrobit.menu.softdevice.s130.softdevice=s130
 BBCmicrobit.menu.softdevice.s130.softdeviceversion=2.0.1
 BBCmicrobit.menu.softdevice.s130.upload.maximum_size=151552
-BBCmicrobit.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+BBCmicrobit.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 BBCmicrobit.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
 
@@ -352,14 +352,14 @@ BluzDK.menu.softdevice.s110=S110
 BluzDK.menu.softdevice.s110.softdevice=s110
 BluzDK.menu.softdevice.s110.softdeviceversion=8.0.0
 BluzDK.menu.softdevice.s110.upload.maximum_size=151552
-BluzDK.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+BluzDK.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 BluzDK.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxac.ld
 
 BluzDK.menu.softdevice.s130=S130
 BluzDK.menu.softdevice.s130.softdevice=s130
 BluzDK.menu.softdevice.s130.softdeviceversion=2.0.1
 BluzDK.menu.softdevice.s130.upload.maximum_size=151552
-BluzDK.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+BluzDK.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 BluzDK.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxac.ld
 
 
@@ -399,14 +399,14 @@ PCA1000X.menu.softdevice.s110=S110
 PCA1000X.menu.softdevice.s110.softdevice=s110
 PCA1000X.menu.softdevice.s110.softdeviceversion=8.0.0
 PCA1000X.menu.softdevice.s110.upload.maximum_size=151552
-PCA1000X.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+PCA1000X.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 PCA1000X.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxaa.ld
 
 PCA1000X.menu.softdevice.s130=S130
 PCA1000X.menu.softdevice.s130.softdevice=s130
 PCA1000X.menu.softdevice.s130.softdeviceversion=2.0.1
 PCA1000X.menu.softdevice.s130.upload.maximum_size=151552
-PCA1000X.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+PCA1000X.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 PCA1000X.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
 PCA1000X.menu.lfclk.lfxo=Crystal Oscillator
@@ -449,14 +449,14 @@ nRF51Dongle.menu.softdevice.s110=S110
 nRF51Dongle.menu.softdevice.s110.softdevice=s110
 nRF51Dongle.menu.softdevice.s110.softdeviceversion=8.0.0
 nRF51Dongle.menu.softdevice.s110.upload.maximum_size=151552
-nRF51Dongle.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+nRF51Dongle.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 nRF51Dongle.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
 
 nRF51Dongle.menu.softdevice.s130=S130
 nRF51Dongle.menu.softdevice.s130.softdevice=s130
 nRF51Dongle.menu.softdevice.s130.softdeviceversion=2.0.1
 nRF51Dongle.menu.softdevice.s130.upload.maximum_size=151552
-nRF51Dongle.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+nRF51Dongle.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 nRF51Dongle.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 Beacon_PCA20006.name=Nordic Beacon Kit (PCA20006)
@@ -486,14 +486,14 @@ Beacon_PCA20006.menu.softdevice.s110=S110
 Beacon_PCA20006.menu.softdevice.s110.softdevice=s110
 Beacon_PCA20006.menu.softdevice.s110.softdeviceversion=8.0.0
 Beacon_PCA20006.menu.softdevice.s110.upload.maximum_size=151552
-Beacon_PCA20006.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 
+Beacon_PCA20006.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 Beacon_PCA20006.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxaa.ld
 
 Beacon_PCA20006.menu.softdevice.s130=S130
 Beacon_PCA20006.menu.softdevice.s130.softdevice=s130
 Beacon_PCA20006.menu.softdevice.s130.softdeviceversion=2.0.1
 Beacon_PCA20006.menu.softdevice.s130.upload.maximum_size=151552
-Beacon_PCA20006.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 
+Beacon_PCA20006.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 Beacon_PCA20006.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
 TinyBLE.name= TinyBLE
@@ -526,14 +526,14 @@ TinyBLE.menu.softdevice.s110=S110
 TinyBLE.menu.softdevice.s110.softdevice=s110
 TinyBLE.menu.softdevice.s110.softdeviceversion=8.0.0
 TinyBLE.menu.softdevice.s110.upload.maximum_size=151552
-TinyBLE.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+TinyBLE.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 TinyBLE.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxaa.ld
 
 TinyBLE.menu.softdevice.s130=S130
 TinyBLE.menu.softdevice.s130.softdevice=s130
 TinyBLE.menu.softdevice.s130.softdeviceversion=2.0.1
 TinyBLE.menu.softdevice.s130.upload.maximum_size=151552
-TinyBLE.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+TinyBLE.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 TinyBLE.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
 
@@ -567,14 +567,14 @@ OSHChip.menu.softdevice.s110=S110
 OSHChip.menu.softdevice.s110.softdevice=s110
 OSHChip.menu.softdevice.s110.softdeviceversion=8.0.0
 OSHChip.menu.softdevice.s110.upload.maximum_size=151552
-OSHChip.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+OSHChip.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 OSHChip.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxac.ld
 
 OSHChip.menu.softdevice.s130=S130
 OSHChip.menu.softdevice.s130.softdevice=s130
 OSHChip.menu.softdevice.s130.softdeviceversion=2.0.1
 OSHChip.menu.softdevice.s130.upload.maximum_size=151552
-OSHChip.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+OSHChip.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 OSHChip.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxac.ld
 
 
@@ -612,14 +612,14 @@ BLENano.menu.softdevice.s110=S110
 BLENano.menu.softdevice.s110.softdevice=s110
 BLENano.menu.softdevice.s110.softdeviceversion=8.0.0
 BLENano.menu.softdevice.s110.upload.maximum_size=151552
-BLENano.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+BLENano.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 BLENano.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
 
 BLENano.menu.softdevice.s130=S130
 BLENano.menu.softdevice.s130.softdevice=s130
 BLENano.menu.softdevice.s130.softdeviceversion=2.0.1
 BLENano.menu.softdevice.s130.upload.maximum_size=151552
-BLENano.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+BLENano.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 BLENano.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 
@@ -657,14 +657,14 @@ RedBearLab_nRF51822.menu.softdevice.s110=S110
 RedBearLab_nRF51822.menu.softdevice.s110.softdevice=s110
 RedBearLab_nRF51822.menu.softdevice.s110.softdeviceversion=8.0.0
 RedBearLab_nRF51822.menu.softdevice.s110.upload.maximum_size=151552
-RedBearLab_nRF51822.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+RedBearLab_nRF51822.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 RedBearLab_nRF51822.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
 
 RedBearLab_nRF51822.menu.softdevice.s130=S130
 RedBearLab_nRF51822.menu.softdevice.s130.softdevice=s130
 RedBearLab_nRF51822.menu.softdevice.s130.softdeviceversion=2.0.1
 RedBearLab_nRF51822.menu.softdevice.s130.upload.maximum_size=151552
-RedBearLab_nRF51822.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+RedBearLab_nRF51822.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 RedBearLab_nRF51822.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 
@@ -700,14 +700,14 @@ Waveshare_BLE400.menu.softdevice.s110=S110
 Waveshare_BLE400.menu.softdevice.s110.softdevice=s110
 Waveshare_BLE400.menu.softdevice.s110.softdeviceversion=8.0.0
 Waveshare_BLE400.menu.softdevice.s110.upload.maximum_size=151552
-Waveshare_BLE400.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+Waveshare_BLE400.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 Waveshare_BLE400.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
 
 Waveshare_BLE400.menu.softdevice.s130=S130
 Waveshare_BLE400.menu.softdevice.s130.softdevice=s130
 Waveshare_BLE400.menu.softdevice.s130.softdeviceversion=2.0.1
 Waveshare_BLE400.menu.softdevice.s130.upload.maximum_size=151552
-Waveshare_BLE400.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+Waveshare_BLE400.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 Waveshare_BLE400.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
 
 
@@ -741,12 +741,12 @@ ng_beacon.menu.softdevice.s110=S110
 ng_beacon.menu.softdevice.s110.softdevice=s110
 ng_beacon.menu.softdevice.s110.softdeviceversion=8.0.0
 ng_beacon.menu.softdevice.s110.upload.maximum_size=151552
-ng_beacon.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+ng_beacon.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110 -DSOFTDEVICE_PRESENT
 ng_beacon.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_xxaa.ld
 
 ng_beacon.menu.softdevice.s130=S130
 ng_beacon.menu.softdevice.s130.softdevice=s130
 ng_beacon.menu.softdevice.s130.softdeviceversion=2.0.1
 ng_beacon.menu.softdevice.s130.upload.maximum_size=151552
-ng_beacon.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+ng_beacon.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130 -DSOFTDEVICE_PRESENT
 ng_beacon.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
